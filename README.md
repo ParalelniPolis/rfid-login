@@ -29,3 +29,7 @@ The source code in **login.ino** needs to be configured for your tags and passwo
 - The UID hashing should be supplemented with a fixed random salt to prevent precomputed dictionary attacks. However, the space of values is very large (~72e15 values) in case of 7 bytes long UIDs so a precomputed dictionary might be impractical anyway.
 - Currently, multi-tag use is limited to passwords of the same length. Changes required to allow passwords of varying length are simple and will be added eventually. If you do the changes yourself, please submit a pull request.
 - Notice: If the attacker has access to both the RFID tag and the hardware, he will have access to plain text password! If the attacker steals just the hardware, he can decrypt your passwords given enough time to do so.
+
+## Donations
+Development is funded through bitcoin donations:
+https://blockchain.info/address/1BHPGY7Rb9WaBBkYPKjZTnKYRzt5mC8NPM
